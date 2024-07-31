@@ -116,10 +116,7 @@ public class Labif5 {
 			float average = (sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 + sub9 + sub10)/10;
 			String averagetotal = "Average :" + " " + average;
 			System.out.println( averagetotal + "Scholarship Grant: President's List\n" + "Discount: 100%\n");
-				//What to improve: if one enters numbers greater than 100, it should not proceed to the next but instead tells the user to re-enter it to the right value
-				//yes switch cases are needed to execute that kind of problem, but..could we do it if an If-Else statement?
-				//(UPDATED: FINALLY RESOLVED)the loop must end and start again and so we use the return statement
-				//Another problem: i want to continue the loop yet it seems there is a problem after else if on sub 2, how do i resolve that?
+				
 	}else {
 		System.out.println("We're sorry, you are not eligible for this Scholarship. " +
 		   "However, we have discounts available for those who obtained grades ranging from 97-95");
