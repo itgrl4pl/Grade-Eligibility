@@ -3,9 +3,9 @@ public class Labif5 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please enter grade in Subject 1:\t");
-		float sub1 = sc.nextFloat(); 
+		float mathematics = sc.nextFloat(); 
 		if (sub1>=97.5 && sub1<=100) {
-			System.out.println("Subject 1 = " + sub1); 
+			System.out.println("Subject 1 = " + mathematics); 
 		 if (sub1>100) {
 			System.out.println("Invalid Grade, Please try again");
 			return;
@@ -14,9 +14,9 @@ public class Labif5 {
 		
 			
 		System.out.println("Please enter grade in Subject 2:\t");
-		float sub2 = sc.nextFloat();
+		float english = sc.nextFloat();
 		if (sub2>=97.5 && sub2<=100) {
-			System.out.println("Subject 2 = " + sub2); 
+			System.out.println("Subject 2 = " + english); 
 		}if (sub2>100) {
 			System.out.println("Invalid Grade, Please try again");
 			return;
@@ -113,7 +113,7 @@ public class Labif5 {
 			System.out.println("Invalid Grade, Please try again");
 			return;
 		}
-			float average = (sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 + sub9 + sub10)/10;
+			float average = (mathematics + english + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 + sub9 + sub10)/10;
 			String averagetotal = "Average :" + " " + average;
 			System.out.println( averagetotal + "Scholarship Grant: President's List\n" + "Discount: 100%\n");
 				
