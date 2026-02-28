@@ -25,7 +25,7 @@ public class Labif5 {
 		
 		
 		System.out.println("Please enter grade in Subject 3:\t");
-		float sub3 = sc.nextFloat();
+		float science = sc.nextFloat();
 		if (sub3>=97.5 && sub3<=100) {
 			System.out.println("Subject 3 = " + sub3); 
 		}if (sub3>100) {
@@ -113,7 +113,7 @@ public class Labif5 {
 			System.out.println("Invalid Grade, Please try again");
 			return;
 		}
-			float average = (mathematics + english + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 + sub9 + sub10)/10;
+			float average = (mathematics + english + science + sub4 + sub5 + sub6 + sub7 + sub8 + sub9 + sub10)/10;
 			String averagetotal = "Average :" + " " + average;
 			System.out.println( averagetotal + "Scholarship Grant: President's List\n" + "Discount: 100%\n");
 				
