@@ -6,7 +6,7 @@ public class Labif5 {
 		float mathematics = sc.nextFloat(); 
 		if (sub1>=97.5 && sub1<=100) {
 			System.out.println("Subject 1 = " + mathematics); 
-		 if (sub1>100) {
+		 if (mathematics>100) {
 			System.out.println("Invalid Grade, Please try again");
 			return;
 		}
@@ -17,7 +17,7 @@ public class Labif5 {
 		float english = sc.nextFloat();
 		if (sub2>=97.5 && sub2<=100) {
 			System.out.println("Subject 2 = " + english); 
-		}if (sub2>100) {
+		}if (englsh>100) {
 			System.out.println("Invalid Grade, Please try again");
 			return;
 		}
@@ -27,8 +27,8 @@ public class Labif5 {
 		System.out.println("Please enter grade in Subject 3:\t");
 		float science = sc.nextFloat();
 		if (sub3>=97.5 && sub3<=100) {
-			System.out.println("Subject 3 = " + sub3); 
-		}if (sub3>100) {
+			System.out.println("Subject 3 = " + science); 
+		}if (science>100) {
 			System.out.println("Invalid Grade, Please try again");
 			return;
 		}
@@ -36,10 +36,10 @@ public class Labif5 {
 		
 		
 		System.out.println("Please enter grade in Subject 4:\t");
-		float sub4 = sc.nextFloat();
+		float history = sc.nextFloat();
 		if (sub4>=97.5 && sub4<=100) {
-			System.out.println("Subject 4 = " + sub4); 
-		}if (sub4>100) {
+			System.out.println("Subject 4 = " + history); 
+		}if (history>100) {
 			System.out.println("Invalid Grade, Please try again");
 			return;
 		}
@@ -113,7 +113,7 @@ public class Labif5 {
 			System.out.println("Invalid Grade, Please try again");
 			return;
 		}
-			float average = (mathematics + english + science + sub4 + sub5 + sub6 + sub7 + sub8 + sub9 + sub10)/10;
+			float average = (mathematics + english + science + history + sub5 + sub6 + sub7 + sub8 + sub9 + sub10)/10;
 			String averagetotal = "Average :" + " " + average;
 			System.out.println( averagetotal + "Scholarship Grant: President's List\n" + "Discount: 100%\n");
 				
